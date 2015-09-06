@@ -1,11 +1,24 @@
 {
   "name": "node_api_2",
-  "version": "0.0.1",
-  "description": "Node API",
+  "version": "1.0.1",
+  "description": "A simple API written in NodeJS, Express and MySQL",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mysql": "^2.9.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FroopleXP/node_api_v2.git"
   },
   "author": "Connor Edwards",
-  "license": "MIT"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FroopleXP/node_api_v2/issues"
+  }
 }
